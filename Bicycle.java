@@ -12,4 +12,13 @@ class Bicycle{
 		gear = startGear;
 		speed = startSpeed;
 	}
+
+	//we now define methods to implement behaviors for our Bicycle class and its objects
+	//lets define a couple of setter methods for the Bicycle
+	public void setCadence(int newValue){
+		cadence = newValue;
+	}
+	public void setGear(int newValue){
+		gear = newValue;
+	}
 }
