@@ -1,9 +1,9 @@
 //lets define Bicycle class
 class Bicycle{
 	//lets declare three fields that provide for the state of the Bicycle class and its objects
-	public int cadence;
-	public int gear;
-	public int speed;
+	private int cadence;
+	private int gear;
+	private int speed;
 
 	//lets define one constructor that takes 3 parameters to initialize new objects for our Bicycle class
 	public Bicycle(int startCadence, int startGear, int startSpeed){
@@ -21,6 +21,18 @@ class Bicycle{
 	public void setGear(int newValue){
 		gear = newValue;
 	}
+
+	//we define three getter methods that obtain field values for us
+	public int getCadence(){
+		return cadence;
+	}
+	public int getGear(){
+		return gear;
+	}
+	public int getSpeed(){
+		return speed;
+	}
+
 	//lets define a applyBrakes() method that decreases the speed of our Bicycle
 	public void applyBrakes(int decrement){
 		speed -= decrement;		//speed = speed - decrement
