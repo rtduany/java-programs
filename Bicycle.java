@@ -41,4 +41,8 @@ public class MountainBike{
 		super(int startCadence, int startGear, int startSpeed);
 		seatHeight = startHeight;
 	}
+	//lets define one setter method to implement a unique behavior for the MountainBike class
+	public void setHeight(newValue){
+		seatHeight = newValue;
+	}
 }
