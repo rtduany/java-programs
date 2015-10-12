@@ -34,5 +34,11 @@ class Bicycle{
 /** MountainBike inherits all the fields and methods of Bicycle and adds the field seatHeight and a method to set it (mountain bikes have seats that can be moved up and down as the terrain demands).*/
 //lets define a MountainBike class that is a subclass of Bicycle
 public class MountainBike{
-
+	//declare one field that provides for the state of the MountainBike class and its objects
+	public int seatHeight;
+	//lets define constructor that initializes new objects for our MountainBike class and its objects
+	public MountainBike(int startHeight, int startCadence, int startGear, int startSpeed){
+		super(int startCadence, int startGear, int startSpeed);
+		seatHeight = startHeight;
+	}
 }
