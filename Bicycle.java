@@ -30,3 +30,9 @@ class Bicycle{
 		speed += increment;		//speed = speed + increment
 	}
 }
+
+/** MountainBike inherits all the fields and methods of Bicycle and adds the field seatHeight and a method to set it (mountain bikes have seats that can be moved up and down as the terrain demands).*/
+//lets define a MountainBike class that is a subclass of Bicycle
+public class MountainBike{
+
+}
