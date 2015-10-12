@@ -21,4 +21,12 @@ class Bicycle{
 	public void setGear(int newValue){
 		gear = newValue;
 	}
+	//lets define a applyBrakes() method that decreases the speed of our Bicycle
+	public void applyBrakes(int decrement){
+		speed -= decrement;		//speed = speed - decrement
+	}
+	//define a speedUP() method that increases the speed of our Bicycle
+	public void speedUp(int increment){
+		speed += increment;		//speed = speed + increment
+	}
 }
