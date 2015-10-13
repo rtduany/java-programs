@@ -127,5 +127,8 @@ public class Driver{
 		//print a couple of Student objects
 		System.out.println("First student's name: "+s1.getName()+"they were born in: "+s1.getYearOfBirth()+"and they live in: "+s1.getResidence()+"student ID: "+s1.getSID()+"Majoring in: "+s1.getFaculty());
 		System.out.println("Second student's name: "+s2.getName()+"they were born in: "+s2.getYearOfBirth()+"and they live in: "+s2.getResidence()+"student ID: "+s2.getSID()+"Majoring in: "+s2.getFaculty());
+		//print a couple of Staff objects
+		System.out.println("Staff name: "+stf1.getName()+"they were born in: "+stf1.getYearOfBirth()+"they live in: "+stf1.getResidence()+"Office no: "+stf1.getRoomNumber()+"Job title: "+stf1.getTitle()+"their salary: "+stf1.getSalary());
+		System.out.println("Staff name: "+stf2.getName()+"they were born in: "+stf2.getYearOfBirth()+"they live in: "+stf2.getResidence()+"Office no: "+stf2.getRoomNumber()+"Job title: "+stf2.getTitle()+"their salary: "+stf2.getSalary());
 	}
 }
