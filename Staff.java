@@ -1,6 +1,6 @@
 //define Staff class, subclass of Person class
 public class Staff extends Person{
-	//lets declare a 3 fields to provide for the state of the Staff class
+	//lets declare a 3 fields to provide for the state of the Staff class and its objects
 	private String title;
 	private int roomNumber;
 	private String salary;
@@ -13,7 +13,7 @@ public class Staff extends Person{
 		roomNumber = theRoomNumber;
 		salary = theSalary;
 	}
-	//lets define 3 setter methods to provide for the unique behavior of the Staff class
+	//lets define 3 setter methods to provide for the unique behavior of the Staff class and its objects
 	public void setTitle(String t){
 		title = t;
 	}
