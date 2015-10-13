@@ -84,5 +84,14 @@ class Staff extends Person{
 		salary = theSalary;
 	}
 
-	//
+	//lets define 3 setter methods for the Staff class
+	public void setTitle(String t){
+		title = t;
+	}
+	public void setRoomNumber(int roomNo){
+		roomNumber = roomNo;
+	}
+	public void setSalary(String s){
+		salary = s;
+	}
 }
