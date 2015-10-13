@@ -34,4 +34,7 @@ public class Person{
 	public int getYearOfBirth(){
 		return yearOfBirth;
 	}
+	public String getResidence(){
+		return residence;
+	}
 }
