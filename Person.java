@@ -48,6 +48,13 @@ class Student extends Person{
 		//set incoming arguments equal to the our object's instance variables
 		this.SID = SID;
 		this.faculty = faculty;
+	}
 
+	//lets now define a couple of setter methods for the Student class
+	public void setSID(String sid){
+		SID = sid;
+	}
+	public void setFaculty(String theFaculty){
+		faculty = theFaculty;
 	}
 }
