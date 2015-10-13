@@ -69,4 +69,9 @@ class Student extends Person{
 
 //define a Staff subclass that inherits from Person
 class Staff extends Person{
+	//lets declare a 3 fields to provide for the state of the Staff class
+	private String title;
+	private int roomNumber;
+	private String salary;
+
 }
