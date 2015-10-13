@@ -112,4 +112,7 @@ class Staff extends Person{
 
 //lets now create a Driver class to test our program
 public class Driver{
+	//define a main method for our Driver class
+	public static void main(String[] args){
+	}
 }
