@@ -84,7 +84,7 @@ class Staff extends Person{
 		salary = theSalary;
 	}
 
-	//lets define 3 setter methods for the Staff class
+	//lets define 3 setter methods to provide for the unique behavior of the Staff class
 	public void setTitle(String t){
 		title = t;
 	}
@@ -93,5 +93,11 @@ class Staff extends Person{
 	}
 	public void setSalary(String s){
 		salary = s;
+	}
+
+	//define 3 getter methods to provide for the unique behavior of Staff class
+	//define a getTitle method
+	public String getTitle(){
+		return title;
 	}
 }
