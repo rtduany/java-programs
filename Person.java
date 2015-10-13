@@ -66,3 +66,7 @@ class Student extends Person{
 		return faculty;
 	}
 }
+
+//define a Staff subclass that inherits from Person
+class Staff extends Person{
+}
