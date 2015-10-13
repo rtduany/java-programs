@@ -114,5 +114,8 @@ class Staff extends Person{
 public class Driver{
 	//define a main method for our Driver class
 	public static void main(String[] args){
+		//lets instantiate 2 objects for the Person class
+		Person p1 = new Person("Ibrahim Dirir", 1994, "Kasarani, Nairobi");
+		Person p1 = new Person("Bill Chabbz", 1995, "Lavington, Nairobi");
 	}
 }
