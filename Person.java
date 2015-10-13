@@ -26,4 +26,11 @@ class Person{
 	public void setResidence(String newResidence){
 		residence = newResidence;
 	}
+	//lets now define the 3 getter methods
+	public String getName(){
+		return name;
+	}
+	public int getYearOfBirth(){
+		return yearOfBirth;
+	}
 }
