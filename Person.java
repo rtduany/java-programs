@@ -34,3 +34,7 @@ class Person{
 		return yearOfBirth;
 	}
 }
+
+//lets now define a subclass called Student class
+class Student extends Person{
+}
