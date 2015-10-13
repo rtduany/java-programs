@@ -104,4 +104,8 @@ class Staff extends Person{
 	public int getRoomNumber(){
 		return roomNumber;
 	}
+	//define getSalary() method
+	public String getSalary(){
+		return salary;
+	}
 }
