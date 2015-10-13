@@ -37,4 +37,8 @@ class Person{
 
 //lets now define a subclass called Student class
 class Student extends Person{
+	//lets declare a couple of fields that provide for the state of our Student class
+	private String SID;
+	private String faculty;
+
 }
