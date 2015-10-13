@@ -6,4 +6,13 @@ class Person{
 	private String name;
 	private int yearOfBirth;
 	private String residence;
+
+	//define 1 constructore that takes 3 parameters to initialize new objects for our Person class
+	public Person(String name, int yearOfBirth, String residence){
+		//set the incoming arguments equal to this bject's fields
+		this.name = name;
+		this.yearOfBirth = yearOfBirth;
+		this.residence = residence;
+
+	}
 }
