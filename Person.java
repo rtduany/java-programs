@@ -74,4 +74,10 @@ class Staff extends Person{
 	private int roomNumber;
 	private String salary;
 
+	//define 1 constructor that takes 6 parameters to initialize new objects for the Staff class
+	public Staff(String theTitle, int theRoomNumber, String theSalary){
+		title = theTitle;
+		roomNumber = theRoomNumber;
+		salary = theSalary;
+	}
 }
