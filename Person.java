@@ -116,9 +116,12 @@ public class Driver{
 	public static void main(String[] args){
 		//lets instantiate 2 objects for the Person class
 		Person p1 = new Person("Chul James Sigin", 1975, "Addis Ababa, Ethiopia");
-		Person p1 = new Person("Daniel Wambugu", 1973, "Dagoreti, Nairobi");
+		Person p2 = new Person("Daniel Wambugu", 1973, "Dagoreti, Nairobi");
 		//instantiate a couple of Student objects
-		Student s1 = new Student("ID-55-1909", "Computer Science", "Ibrahim Dirir", 1994, "Kasarani, Nairobi");
-		Student s2 = new Student("BC-55-1900", "Software Engineering", "Bill Chabbz", 1992, "Lavington, Nairobi");
+		Student s1 = new Student("ID-55-1909", "Computer Science", "Ibrahim Dirir", 1994, "Kasarani");
+		Student s2 = new Student("BC-55-1900", "Software Engineering", "Bill Chabbz", 1992, "Lavington");
+		//instantiate a couple of objects for the Staff class
+		Staff stf1 = new Staff("Protocol Officer", 5, "$25,000", "Robert Moringa", 1988, "CBD, Nairobi");
+		Staff stf2 = new Staff("HIR", 4, "$15,000", "Cornelius Ngondo", 1990, "Westlands, Nairobi");
 	}
 }
