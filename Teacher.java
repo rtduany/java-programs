@@ -18,4 +18,8 @@ class Teacher extends Person{
 	public void setSalary(String salary){
 		this.salary = salary;
 	}
+	//define 1 getter method to provide for the unique behavior of the Teacher class and its objects
+	public String getSalary(){
+		return this.salary;
+	}
 }
