@@ -57,4 +57,12 @@ class Student extends Person{
 	public void setFaculty(String theFaculty){
 		faculty = theFaculty;
 	}
+
+	//define a couple of getter methods for the Student class
+	public String getSID(){
+		return SID;
+	}
+	public String getFaculty(){
+		return faculty;
+	}
 }
