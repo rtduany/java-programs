@@ -13,6 +13,17 @@ class Person{
 		this.name = name;
 		this.yearOfBirth = yearOfBirth;
 		this.residence = residence;
+	}
 
+	//lets now define some setter and getter methods for the Person class
+	//first lets define 3 setter methods
+	public void setName(String newName){
+		name = newName;
+	}
+	public void setYearOfBirth(int newYear){
+		yearOfBirth = newYear;
+	}
+	public void setResidence(String newResidence){
+		residence = newResidence;
 	}
 }
