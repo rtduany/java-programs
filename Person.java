@@ -115,7 +115,10 @@ public class Driver{
 	//define a main method for our Driver class
 	public static void main(String[] args){
 		//lets instantiate 2 objects for the Person class
-		Person p1 = new Person("Ibrahim Dirir", 1994, "Kasarani, Nairobi");
-		Person p1 = new Person("Bill Chabbz", 1995, "Lavington, Nairobi");
+		Person p1 = new Person("Chul James Sigin", 1975, "Addis Ababa, Ethiopia");
+		Person p1 = new Person("Daniel Wambugu", 1973, "Dagoreti, Nairobi");
+		//instantiate a couple of Student objects
+		Student s1 = new Student("ID-55-1909", "Computer Science", "Ibrahim Dirir", 1994, "Kasarani, Nairobi");
+		Student s2 = new Student("BC-55-1900", "Software Engineering", "Bill Chabbz", 1992, "Lavington, Nairobi");
 	}
 }
