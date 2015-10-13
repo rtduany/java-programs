@@ -7,7 +7,7 @@ public class Student extends Person{
 	//define 1 constructor with 5 parameters to initialize new objects for the Student class
 	public Student(String SID, String faculty, String name, int yearOfBirth, String residence){
 		//first lets call the constructor of our base class using the super keyword
-		super(String name, int yearOfBirth, String residence);
+		super(name, yearOfBirth, residence);
 		//set incoming arguments equal to the our object's instance variables
 		this.SID = SID;
 		this.faculty = faculty;
