@@ -109,3 +109,7 @@ class Staff extends Person{
 		return salary;
 	}
 }
+
+//lets now create a Driver class to test our program
+public class Driver{
+}
