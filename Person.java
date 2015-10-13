@@ -41,4 +41,13 @@ class Student extends Person{
 	private String SID;
 	private String faculty;
 
+	//define 1 constructor with 5 parameters to initialize new objects for the Student class
+	public Student(String SID, String faculty, String name, int yearOfBirth, String residence){
+		//first lets call the constructor of our base class using the super keyword
+		super(String n, int y, String r);
+		//set incoming arguments equal to the our object's instance variables
+		this.SID = SID;
+		this.faculty = faculty;
+
+	}
 }
