@@ -4,7 +4,6 @@ public class Staff extends Person{
 	private String title;
 	private int roomNumber;
 	private String salary;
-
 	//define 1 constructor that takes 6 parameters to initialize new objects for the Staff class
 	public Staff(String theTitle, int theRoomNumber, String theSalary, String name, int yearOfBirth, String residence){
 		//lets call the base class's constructor using the keyword super()
@@ -14,7 +13,6 @@ public class Staff extends Person{
 		roomNumber = theRoomNumber;
 		salary = theSalary;
 	}
-
 	//lets define 3 setter methods to provide for the unique behavior of the Staff class
 	public void setTitle(String t){
 		title = t;
@@ -25,7 +23,6 @@ public class Staff extends Person{
 	public void setSalary(String s){
 		salary = s;
 	}
-
 	//define 3 getter methods to provide for the unique behavior of Staff class
 	//define a getTitle method
 	public String getTitle(){
