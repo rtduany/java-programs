@@ -8,7 +8,7 @@ public class Staff extends Person{
 	//define 1 constructor that takes 6 parameters to initialize new objects for the Staff class
 	public Staff(String theTitle, int theRoomNumber, String theSalary, String name, int yearOfBirth, String residence){
 		//lets call the base class's constructor using the keyword super()
-		super(String n, int y, String r);
+		super(name, yearOfBirth, residence);
 		//set incoming arguments equal to the new object's instance variables
 		title = theTitle;
 		roomNumber = theRoomNumber;
