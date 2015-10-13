@@ -22,4 +22,14 @@ class Teacher extends Person{
 	public String getSalary(){
 		return this.salary;
 	}
+	//validate the addition of a course. If the course already exists, return false
+	public boolean addCourse(String course){
+		//we now check to see if the course is already in the list
+		for (int i = 0; i < numCourses; i++){
+			if (course[i].equals(course)) return false;
+		}
+		courses[numCourses] = course;
+		numCourses++;
+		return true;
+	}
 }
