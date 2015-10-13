@@ -5,20 +5,20 @@ We design the classes as follows.
 
 //define a Person class
 public class Person{
-	//lets declare 3 fields for the Person class and its objects
+	//lets declare 3 fields to provide for the state of Person class and its objects
 	private String name;
 	private int yearOfBirth;
 	private String residence;
 
 	//define 1 constructore that takes 3 parameters to initialize new objects for our Person class
 	public Person(String name, int yearOfBirth, String residence){
-		//set the incoming arguments equal to this bject's fields
+		//set the incoming arguments equal to this object's instance variables
 		this.name = name;
 		this.yearOfBirth = yearOfBirth;
 		this.residence = residence;
 	}
 
-	//lets now define some setter and getter methods for the Person class
+	//lets now define some setter and getter methods to provide for the unique behavior of Person class
 	//first lets define 3 setter methods
 	public void setName(String newName){
 		name = newName;
