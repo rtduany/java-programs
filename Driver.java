@@ -121,5 +121,8 @@ public class Driver{
 		//instantiate a couple of objects for the Staff class
 		Staff stf1 = new Staff("Protocol Officer", 5, "$25,000", "Robert Moringa", 1988, "CBD, Nairobi");
 		Staff stf2 = new Staff("HIR", 4, "$15,000", "Cornelius Ngondo", 1990, "Westlands, Nairobi");
+		//lets do some printing
+		System.out.println("First person name: "+p1.getName()+"they born in: "+p1.getYearOfBirth()+"and they live in: "+p1.getResidence());
+		System.out.println("Second person name: "+p2.getName()+"they born in: "+p2.getYearOfBirth()+"and they live in: "+p2.getResidence());
 	}
 }
