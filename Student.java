@@ -24,7 +24,9 @@ public class Student extends Person{
 		//set incoming arguments equal to the our object's instance variables
 		this.SID = SID;
 		this.faculty = faculty;
-		this.grade = grade;
+		numCourses = 0;
+		courses = new String[MAX_COURSES];
+		grades = new int[MAX_COURSES];
 	}
 	//lets now define a couple of setter methods for the Student class
 	public void setSID(String sid){
