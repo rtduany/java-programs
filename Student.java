@@ -24,7 +24,10 @@ public class Student extends Person{
 		//set incoming arguments equal to the our object's instance variables
 		this.SID = SID;
 		this.faculty = faculty;
+		//we reset the counter each time we instantiate and create an object
 		numCourses = 0;
+		//we instantiate courses and grades in constructor to keep track of the number of courses and
+		//corresponding grades
 		courses = new String[MAX_COURSES];
 		grades = new int[MAX_COURSES];
 	}
@@ -41,5 +44,13 @@ public class Student extends Person{
 	}
 	public String getFaculty(){
 		return faculty;
+	}
+	//lets add a course and its corresponding grade
+	public void addCourseAndGrade(String course, int grade){
+		//assign the course and grade to the corresponding variable arrays
+		courses[numCourses] = course;
+		grades[numCourses] = grade;
+		//lets increment the counter
+		numCourses++;
 	}
 }
