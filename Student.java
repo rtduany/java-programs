@@ -34,6 +34,10 @@ public class Student extends Person{
 		//code goes here
 		course = theCourse;
 	}
+	//define a setGrade setter method to assign a grade to the variable grade
+	public void setGrade(Char theGrade){
+		grade = theGrade;
+	}
 	//define a couple of getter methods for the Student class
 	public String getSID(){
 		return SID;
