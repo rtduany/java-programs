@@ -44,5 +44,14 @@ class Teacher extends Person{
 				break;
 			}
 		}
+		if (courseIndex == numCourses){
+			return false;
+		}else{
+			for (int i = courseIndex; i < numCourses-1; i++) {
+            courses[i] = courses[i+1];
+         }
+         numCourses--;
+         return true;
+		}
 	}
 }
