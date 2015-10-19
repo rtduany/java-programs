@@ -45,4 +45,8 @@ public class Student extends Person{
 	public String getFaculty(){
 		return faculty;
 	}
+	//define a getCourse() getter method to return the course
+	public String getCourse(){
+		return course;
+	}
 }
