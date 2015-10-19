@@ -28,6 +28,12 @@ public class Student extends Person{
 	public void setFaculty(String theFaculty){
 		faculty = theFaculty;
 	}
+	//define a setCourse setter method to assign a course to the variable course
+	public void setCourse(String theCourse){
+		//check first to validate that the course was not already taken or registered
+		//code goes here
+		course = theCourse;
+	}
 	//define a couple of getter methods for the Student class
 	public String getSID(){
 		return SID;
