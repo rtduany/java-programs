@@ -45,12 +45,21 @@ public class Student extends Person{
 	public String getFaculty(){
 		return faculty;
 	}
-	//lets add a course and its corresponding grade
+	//lets add a course and its corresponding grade without any validation
 	public void addCourseAndGrade(String course, int grade){
 		//assign the course and grade to the corresponding variable arrays
 		courses[numCourses] = course;
 		grades[numCourses] = grade;
 		//lets increment the counter
 		numCourses++;
+	}
+	//lets now print all the courses taken and their corresponding grades
+	public void printCourses(){
+		System.out.println(this);
+		for (int i; i < numCourses; i++){
+			System.out.println(" " + courses[i] + " : " + grades[i]);
+		}
+		//print an empty space between each line of course and grade pair
+		System.out.println();
 	}
 }
