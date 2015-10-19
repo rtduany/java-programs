@@ -5,13 +5,15 @@ class Teacher extends Person{
 	private String[] courses;	//corresponding course codes
 	private double salary;
 	private static final int MAX_COURSES = 10;	//maximum courses
-	//define 1 constructor that takes 5 parameters to initialize new objects of the Teacher class
+	//define 1 constructor that takes 4 parameters to initialize new objects of the Teacher class
 	public Teacher(double salary, String name, int yearOfBirth, String residence){
 		//lets call the base class's constructor using the super() keyword
 		super(name, yearOfBirth, residence);
-		//set incomin argument equal to instance variable
+		//set incoming argument equal to instance variable salary
 		this.salary = salary;
+		//lets reset the counter each time the object is instantiated
 		numCourses = 0;
+		//lets instantiate a new String array and assign it to courses String Array (course codes)
 		courses = new String[MAX_COURSES];
 	}
 	//define 1 setter method to provide for the unique bahavior of the Teacher class and its objects
@@ -31,5 +33,16 @@ class Teacher extends Person{
 		courses[numCourses] = course;
 		numCourses++;
 		return true;
+	}
+	//lets now conside the case in which the course is not in the course list
+	public boolean removeCourse(String course){
+		//lets look for the course index
+		courseIndex = numCourses;
+		for (int i = 0; i < numCourses; i++){
+			if (courses[i].equal(course)){
+				courseIndex = i;
+				break;
+			}
+		}
 	}
 }
