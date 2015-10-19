@@ -8,17 +8,22 @@ public class Student extends Person{
 	//lets declare a couple of fields that provide for the state of our Student class
 	private String SID;
 	private String faculty;
-	private String course;
-	private Char grade;
+	//grade for the corresponding course codes
+	private int[] grades;
+	//number of courses taken so far, max 30
+	private int numCourses;
+	//course codes
+	private String[] courses;
+	//maximum number of courses
+	private static final int MAX_COURSES = 30;
 
 	//define 1 constructor with 5 parameters to initialize new objects for the Student class
-	public Student(String SID, String faculty, String course, Char grade, String name, int yearOfBirth, String residence,){
+	public Student(String SID, String faculty, String name, int yearOfBirth, String residence,){
 		//first lets call the constructor of our base class using the super keyword
 		super(name, yearOfBirth, residence);
 		//set incoming arguments equal to the our object's instance variables
 		this.SID = SID;
 		this.faculty = faculty;
-		this.course = course;
 		this.grade = grade;
 	}
 	//lets now define a couple of setter methods for the Student class
@@ -28,29 +33,11 @@ public class Student extends Person{
 	public void setFaculty(String theFaculty){
 		faculty = theFaculty;
 	}
-	//define a setCourse setter method to assign a course to the variable course
-	public void setCourse(String theCourse){
-		//check first to validate that the course was not already taken or registered
-		//code goes here
-		course = theCourse;
-	}
-	//define a setGrade setter method to assign a grade to the variable grade
-	public void setGrade(Char theGrade){
-		grade = theGrade;
-	}
 	//define a couple of getter methods for the Student class
 	public String getSID(){
 		return SID;
 	}
 	public String getFaculty(){
 		return faculty;
-	}
-	//define a getCourse() getter method that returns the course
-	public String getCourse(){
-		return course;
-	}
-	//define a getGrade() getter method that returns the grade
-	public Char getGrade(){
-		return grade;
 	}
 }
