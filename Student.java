@@ -45,8 +45,12 @@ public class Student extends Person{
 	public String getFaculty(){
 		return faculty;
 	}
-	//define a getCourse() getter method to return the course
+	//define a getCourse() getter method that returns the course
 	public String getCourse(){
 		return course;
+	}
+	//define a getGrade() getter method that returns the grade
+	public Char getGrade(){
+		return grade;
 	}
 }
