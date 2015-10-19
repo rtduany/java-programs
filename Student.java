@@ -55,11 +55,21 @@ public class Student extends Person{
 	}
 	//lets now print all the courses taken and their corresponding grades
 	public void printCourses(){
+		//print the current student object
 		System.out.println(this);
-		for (int i; i < numCourses; i++){
+		for (int i = 0; i < numCourses; i++){
 			System.out.println(" " + courses[i] + " : " + grades[i]);
 		}
 		//print an empty space between each line of course and grade pair
 		System.out.println();
+	}
+	//finally, lets compute the grade point average (GPA)
+	public double getGPA(){
+		sum = 0;
+		for (int i = 0; i < numCourses; i++){
+			sum += grades[i];
+		}
+		//calculate GPA and cast it to double
+		return (double)sum/numCourses;
 	}
 }
